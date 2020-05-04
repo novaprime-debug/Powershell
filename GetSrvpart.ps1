@@ -54,7 +54,7 @@ $PartitionNamefinal | Export-Csv c:\users\nova\PartitionName.csv -NoTypeInformat
     
 }
 
-# Final File 
+# Final File that contains the Services per Partition
 
 for ( $n = 0; $n -lt $servicenamefinal.Count; $n++ ) {
     [PSCustomObject]@{  
