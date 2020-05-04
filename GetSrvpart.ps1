@@ -46,11 +46,11 @@ $ServiceNamefinal=$ServiceName | Select-Object @{Name='ServiceName';Expression={
 
 # Service Name File only
 
-$ServiceNamefinal | Export-Csv c:\users\z003ztcf\ServiceName.csv -NoTypeInformation
+$ServiceNamefinal | Export-Csv c:\users\nova\ServiceName.csv -NoTypeInformation
 $PartitionNamefinal=$PartitionName | Select-Object @{Name='PartitionName';Expression={$_}}
 
 # Partition Name File only
-$PartitionNamefinal | Export-Csv c:\users\z003ztcf\PartitionName.csv -NoTypeInformation 
+$PartitionNamefinal | Export-Csv c:\users\nova\PartitionName.csv -NoTypeInformation 
     
 }
 
