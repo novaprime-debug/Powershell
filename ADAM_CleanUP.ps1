@@ -51,7 +51,7 @@ $count = (get-content ".\HOST.txt" | select-string -pattern "##### Research star
 
 $a = $count
 
-gc ".\HOST1.txt" | %  {   
+Get-Content ".\HOST1.txt" | ForEach-Object  {   
 
     If ($_ -match "##### Research start date")
     {
@@ -69,7 +69,7 @@ foreach ($file in $files)
 $output =
 foreach ($Line in $file)
 {
-    gc $file | Where { $_ -notmatch "^#"} | Where { $_ -ne ""}
+    Get-Content $file | Where-Object { $_ -notmatch "^#"} | Where-Object { $_ -ne ""}
 }
 $output | Out-File $file
 
