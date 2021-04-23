@@ -3,9 +3,7 @@ Powershell
 #------------------------------------------------------------------------------
 # (C) novaprime-debug/Powershell
 #------------------------------------------------------------------------------
-# Content:  This script segregates the Service Name and Partition Name into a seperate file from TNSNAMES.ORA.
-# TNSNAMES.ORA is used in ORACLE NAME SERVICE for Name Resolution.
-# By using this script you can figure out all service names in a single partition, no. of partitions, no. of service names etc.
+# Content:  The folder contains the powershell script i worked on or working on right now. 
 
 # Author:   NOVA PRIME
 # 
