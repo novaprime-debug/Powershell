@@ -1,6 +1,6 @@
 ##############################################################################################################################
 # Author :- Deepak Gautam 
-# Email :- deepak.gautam@hpe.com
+# Email :- deepakgautam139@gmail.com
 # Date :- 22-April-2021
 # Description :- Script is to rename a single computer and reboot thereafter
 #############################################################################################################################
