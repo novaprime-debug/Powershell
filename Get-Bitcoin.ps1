@@ -10,16 +10,16 @@ BTC mining is done using calculating Hash with predefined zeroes as suffix.
 Currently BTC hash that are being submitted have 20 zeros as suffix.
 This script was done as a fun activity over a weekend to see if we can do this by powershell.
 
-More information can be found on https://www.blockchain.com/explorer
+More information on Bitcoin hashes can be found on https://www.blockchain.com/explorer
 
 Disclaimer:-  
-It is not advised to increase the predefined zeros before hash from '0000' as it consumes a lot of 
+It is not advised to increase the predefined zeroes before hash from '0000' as it consumes a lot of 
 resources. Powershell is not the right language to do this. I'm not liable if you run this and break your OS.
 #>
 
 # Function
 
-function GET-BTC {
+function Get-Bitcoin {
     [CmdletBinding()]
     param (
         [Parameter(Position=0,ValueFromPipeline = $true,Mandatory=$True)]
@@ -58,4 +58,4 @@ function GET-BTC {
 
 # remove # from the next line and provide the path for filepath and zeroes variable
 
-#GET-BTC -filepath "D:\password.txt" -zeroes 00 
+#Get-Bitcoin -filepath "D:\password.txt" -zeroes 00 
