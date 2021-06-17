@@ -1,8 +1,8 @@
 ##############################################################################################################################
 #   Author :- Deepak Gautam                                                                                                  #
-#   Email :- deepakgautam139@gmail.com                                                                                           #
-#   Date :- 17-June-2021                                                                                                      #
-#   Description :- Script is to generate random hash with predefined zeroes.                                                            #
+#   Email :- deepakgautam139@gmail.com                                                                                       #
+#   Date :- 17-June-2021                                                                                                     #
+#   Description :- Script is to generate random hash with predefined zeroes.                                                 #
 ##############################################################################################################################
 
 <# 
